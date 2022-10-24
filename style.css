@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #eee;
+  font-family: 'Noto Sans Wancho', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first__section{
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.5%;
+}
+
+.first_card{
+  background: #000;
+  width: 270px;
+  height: 225px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.five_img{
+  position: relative;
+}
+
+.first_img{
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 5.85rem;
+}
+
+.second_img{
+  position: absolute;
+  margin-left: 9.8rem;
+  margin-top: 1.5rem;
+}
+
+.third_img{
+  position: absolute;
+  margin-left: 6.4rem;
+  margin-top: 1.8rem;
+}
+
+.fourth_img{
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 6.7rem;
+}
+
+.fifth_img{
+  position: absolute;
+  margin-left: 9.5rem;
+  margin-top:4.9rem;
+}
+
+.first_card_text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.first_card_text h2{
+  color: #fd4040;
+  font-size: 20px;
+  margin-top: 5.8em;
+}
+
+.first_card_text p{
+  color: #fff;
+  font-size: 11px;
+  padding: 0.5rem;
+  line-height: 17.5px;
+}
+
+
+
+
+
+.second_card{
+  width: 270px;
+  height: 225px;
+  background: #fff;
+  border-radius: 10px;
+  padding-left: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second_card_top{
+  display: flex;
+}
+
+.second_top_img{
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2.1rem;
+  background: #EEEEEE;
+  border-radius: 50%;
+}
+
+.second_card_icon{
+  margin-left: 10rem;
+  margin-top: 0.7rem;
+}
+
+.second_card_icon i{
+  font-size: 20px;
+  color: #b1b4b7;
+}
+
+.second_card_text h2{
+  font-size: 20px;
+  margin-top: 0.4rem;
+  letter-spacing: 0.4px;
+  color: #464e56;
+}
+
+.second_card_text p{
+  width: 230px;
+  font-size: 11px;
+  margin-top: 0.6rem;
+  line-height: 17.5px;
+  letter-spacing: 0.15px;
+  color: #b1b4b7;
+  font-weight: 600;
+}
+
+.second_card_task{
+  display: flex;
+  margin-top: 1.3rem;
+  color: #b1b4b7;
+}
+
+.second_card_task i{
+  font-size: 17px;
+}
+
+.second_card_task p{
+  font-size: 11px;
+  margin-left: 7px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.second_card_data{
+  display: flex;
+  margin-top: 8px;
+  color: #b1b4b7;
+}
+
+.second_card_data i{
+  font-size: 16px;
+}
+
+.second_card_data p{
+  font-size: 11px;
+  margin-left: 8px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.reactions{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12.4rem;
+  margin-top: -1rem;
+}
+
+.reactions img{
+  position: absolute;
+  border: 0.5px solid #6ebde4;
+  border-radius: 50%;
+  background-color: #bcd8e6
+}
+
+.img2{
+  margin-left: 0.6rem;
+}
+
+.img3{
+  margin-left: 1.2rem;
+}
+
+
+/* Second_section */
+
+.second__section{
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
